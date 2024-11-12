@@ -1,3 +1,35 @@
+# Site Information
 title: "Aleksandr Shapovalov - iOS Developer"
 description: "Professional Portfolio of Aleksandr Shapovalov"
-theme: jekyll-theme-minimal
+baseurl: ""  # Leave empty for GitHub Pages at the root
+url: "https://giiks131.github.io"  # Replace with your GitHub username
+
+# Theme
+theme: jekyll-theme-minimal  # Replace with the theme of your choice
+
+# Author Information (optional)
+author:
+  name: "Aleksandr Shapovalov"
+  email: "giiksdev@gmail.com"
+
+# Plugins (GitHub Pages automatically uses safe plugins)
+plugins: []
+
+# Markdown Processor
+markdown: kramdown  # Default, no need to change unless you have specific requirements
+
+# Highlighter for Code Syntax
+highlighter: rouge  # Default code highlighter used by GitHub Pages
+
+# Optional: Enable/disable features
+future: false  # Do not publish future-dated posts
+unpublished: false  # Do not publish drafts
+
+# Optional: Set Permalink Structure
+permalink: pretty  # Creates clean URLs (e.g., `/my-post/` instead of `/my-post.html`)
+
+# Optional: Liquid templating settings
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
